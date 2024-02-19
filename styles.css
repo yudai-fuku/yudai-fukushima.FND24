@@ -32,12 +32,13 @@ nav ul li a:hover {
 }
 
 .background {
+  width: 50%;
+  height: 50%;
   background-image: url(TOP_DIG.jpg);
   background-color: black;
   background-size: auto;
   background-position: center;
-  width: 50%;
-  height: 50%;
+
 }  
 
 
