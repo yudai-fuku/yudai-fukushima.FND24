@@ -32,19 +32,28 @@ nav ul li a:hover {
 }
 
 .background {
-  background-image: url(TOP_DIG.jpg);
-  background-color: black;
-  background-size: auto;
+  background-color: white;
+  background-size: cover;
   background-position: center;
+  text-align: center;
+  padding:  0;
+} 
 
-}  
+.background2 {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding:  0;
+  color: black;
+} 
 
 
 .string-h1 {
   font-size: 36px;
   margin-bottom: 20px;
   color: grey;
-  text-align: left;
+  text-align: center;
   padding: 50px 25px;
 }
 
