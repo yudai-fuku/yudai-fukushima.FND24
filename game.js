@@ -41,18 +41,6 @@ window.onload = function() {
         clickButton.removeEventListener("click", clickButtonHandler);
     }
 
-    // ボタンクリック時の処理
-    function clickButtonHandler() {
-        // 最初のクリック時にゲームを開始する
-        if (clickCount === 0) {
-            startGame();
-        }
-        if (setTime > 0) { // ゲームが終了していない場合にのみクリック処理を実行
-            clickButton.style.top = Math.floor(Math.random() * window.innerHeight) + "px";
-            clickButton.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
-            addEmoji();
-        }
-    }
 
     // 残り時間を更新する関数
     function updateTime() {
